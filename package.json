@@ -1,0 +1,19 @@
+{
+  "name": "Shutterbug",
+  "version": "0.1.0",
+  "description": "A simple nightmare-based UI capture written in JavaScript",
+  "main": "shutterbug.js",
+  "author": "Devon Wieczorek",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.0",
+    "mkdirp": "^0.5.1",
+    "nightmare": "^2.10.0",
+    "node-zip-dir": "^1.0.2",
+    "nodemon": "^1.12.1",
+    "rmdir": "^1.2.0"
+  }
+}
